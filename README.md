@@ -36,7 +36,9 @@ There are two files, both in .dat format:
 	 For example, the entry beginning with _WSigmapp10    	 12	 25			..._ is the response function for 25Mg scattering through the Σ'' operator with (τ,τ')=(1,0).
 
 	- The remaining entries are the coefficients ηi of the polynomial characterizing the response function, which take the form
-					W_A^{ττ'} = e^{-2y}(η + η1*y + η2*y^2 + η3*y^3 + η4*y^4 + η5*y^5 + η6*y^6 + η7*y^7 + η8*y^8)
-   We truncate the expansion (arbitrarily) at eighth order.
+
+   		W_A^{ττ'} = e^{-2y}(η + η1*y + η2*y^2 + η3*y^3 + η4*y^4 + η5*y^5 + η6*y^6 + η7*y^7 + η8*y^8)
+
+   	 	We truncate the expansion (arbitrarily) at eighth order.
 
 	 Note that due to limitations of the **BigStick** codebase and nuclear physics uncertainty, we expect errors to be sub-percent for light elements, _Z<20_, and approaching _10-50%_ for elements as heavy as iron (and heavier).
