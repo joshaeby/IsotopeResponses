@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: IsotopeResponses
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Joshua
+    family-names: Eby
+    email: joshaeby@gmail.com
+    affiliation: Stockholm University
+    orcid: 'https://orcid.org/0000-0003-0562-9177'
+  - given-names: Patrick
+    family-names: Fox
+    email: pjfox@fnal.gov
+    affiliation: Fermi National Accelerator Laboratory
+  - given-names: Graham
+    family-names: Kribs
+    email: kribs@uoregon.edu
+    affiliation: University of Oregon
+repository-code: 'https://github.com/joshaeby/IsotopeResponses'
+abstract: >-
+  Data characterizing stable isotopes in Earth, and their
+  response functions for scattering with dark matter.
