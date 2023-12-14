@@ -32,7 +32,7 @@ This repository contains two files:
 
 
 2. **Nuclear_Response_Data.dat** contains the coefficients of the polynomial characterizing dark-matter--nucleus scattering through a variety of non-relativistic operators.
-	 These are calcluated using the nuclear shell code **BigStick**, available online at https://github.com/cwjsdsu/BigstickPublick; see https://arxiv.org/abs/1801.08432 for information.
+	 These are calcluated using the nuclear shell code <tt>BigStick</tt>, available online at [this link via GitHub](https://github.com/cwjsdsu/BigstickPublick); see [this paper](https://arxiv.org/abs/1801.08432) for information.
 
 	- The 20 isotopes included are: 12C, 14N, 24Mg, 25Mg, 27Al, 28Si, 29Si, 30Si, 54Fe, 56Fe, 57Fe, 58Fe, 58Ni, 60Ni, 70Ge, 72Ge, 73Ge, 74Ge, 87Sr, 88Sr. These are labeled by their atomic and mass numbers (_Z,A_).
 
@@ -47,7 +47,7 @@ This repository contains two files:
 
    	 	where _y=(b*q/2)^2_ with _q_ the momentum transfer and _b=sqrt[41.467/(45*A^{-1/3} - 25*A^{-2/3})] fm_ the nuclear oscillation parameter. We truncate the polynomial expansion at eighth order.
 
-	 Note that due to nuclear physics uncertainty and limitations of the **BigStick** codebase, we expect errors to be sub-percent for light elements, _Z<20_, and approaching _10-50%_ for elements as heavy as iron (and heavier).
+	 Note that due to nuclear physics uncertainty and limitations of the <tt>BigStick</tt> codebase, we expect errors to be sub-percent for light elements, _Z<20_, and approaching _10-50%_ for elements as heavy as iron (and heavier).
 
 
 Final note: **if you become aware of any error in this repository, please inform the owner immediately.**
