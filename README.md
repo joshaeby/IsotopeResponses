@@ -1,5 +1,5 @@
 # IsotopeResponses
-Data characterizing stable isotopes in Earth, and their response functions for scattering with dark matter. Ancillary data for arXiv: aaaa.bbbbb
+Data characterizing stable isotopes in Earth, and their response functions for scattering with dark matter. Ancillary data for arXiv: 2312.08478
 
 This repository contains two files:
 
